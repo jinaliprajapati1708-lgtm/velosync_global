@@ -28,8 +28,8 @@ const footerLinks = {
   ],
   industries: [
     { label: "Healthcare & MedTech", href: "/industries#healthcare" },
-    { label: "FinTech & Banking", href: "/industries#fintech" },
-    { label: "E-Commerce & Retail", href: "/industries#ecommerce" },
+    { label: "FinTech & Banking", href: "/industries#finance" },
+    { label: "E-Commerce & Retail", href: "/industries#retail" },
     { label: "Logistics & Supply Chain", href: "/industries#logistics" },
     { label: "Real Estate & Construction", href: "/industries#realestate" },
   ],

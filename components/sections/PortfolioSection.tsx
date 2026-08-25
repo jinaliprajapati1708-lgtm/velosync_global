@@ -9,7 +9,7 @@ const portfolio = [
     metric: "70% Faster Deal Closure",
     description:
       "Customized CRM solution with automated pipeline tracking, lead scoring, and intelligent follow-up scheduling built for high-touch service firms.",
-    href: "/portfolio",
+    href: "/portfolio/ai-enterprise-crm",
     icon: <BrainIcon size={28} />,
     tags: ["Next.js", "AI Lead Scoring", "CRM Engine"],
   },
@@ -19,7 +19,7 @@ const portfolio = [
     metric: "3.5x Qualified Inquiries",
     description:
       "High-converting landing architecture and automated quote engines specifically tailored to attract and engage Australian commercial clients.",
-    href: "/portfolio",
+    href: "/portfolio/australian-lead-portal",
     icon: <ZapIcon size={28} />,
     tags: ["React 19", "Automated Workflows", "SEO Suite"],
   },
@@ -29,7 +29,7 @@ const portfolio = [
     metric: "99.9% Automated Billing",
     description:
       "Tailored cloud ERP managing multi-currency invoices, staff schedules, and project milestone approvals across global delivery teams.",
-    href: "/portfolio",
+    href: "/portfolio/multi-tenant-erp",
     icon: <LayersIcon size={28} />,
     tags: ["Cloud Architecture", "Custom ERP", "Security"],
   },

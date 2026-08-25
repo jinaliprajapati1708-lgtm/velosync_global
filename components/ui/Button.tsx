@@ -64,6 +64,7 @@ export default function Button(props: ButtonProps) {
     rightIcon,
     disabled = false,
     fullWidth = false,
+    as,
     ...rest
   } = props;
 
@@ -87,28 +88,30 @@ export default function Button(props: ButtonProps) {
     </>
   );
 
-  if (props.as === "link") {
+  if (as === "link") {
+    const { href, target, rel, ...linkRest } = rest as unknown as ButtonAsLink;
     return (
       <Link
-        href={props.href}
+        href={href}
         className={baseClasses}
-        target={props.target}
-        rel={props.rel}
-        {...(rest as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+        target={target}
+        rel={rel}
+        {...linkRest}
       >
         {content}
       </Link>
     );
   }
 
-  if (props.as === "a") {
+  if (as === "a") {
+    const { href, target, rel, ...aRest } = rest as unknown as ButtonAsAnchor;
     return (
       <a
-        href={props.href}
+        href={href}
         className={baseClasses}
-        target={props.target}
-        rel={props.rel}
-        {...(rest as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+        target={target}
+        rel={rel}
+        {...aRest}
       >
         {content}
       </a>
