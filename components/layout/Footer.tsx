@@ -72,11 +72,11 @@ export default function Footer() {
       <div className="relative container">
         {/* Pre-footer Call to Action Card */}
         <section
-          className="relative -mt-28 mb-16 p-8 md:p-12 rounded-3xl overflow-hidden shadow-2xl border"
+          className="relative mb-16 p-8 md:p-12 rounded-3xl overflow-hidden shadow-2xl border"
           style={{
             background:
-              "linear-gradient(135deg, rgba(11, 27, 61, 0.95) 0%, rgba(30, 58 138, 0.95) 50%, rgba(6, 182, 212, 0.2) 100%)",
-            borderColor: "rgba(255, 255, 255, 0.15)",
+              "linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 58, 138, 0.85) 50%, rgba(6, 182, 212, 0.2) 100%)",
+            borderColor: "rgba(6, 182, 212, 0.3)",
           }}
         >
           <div className="grid lg:grid-cols-2 gap-8 items-center">
