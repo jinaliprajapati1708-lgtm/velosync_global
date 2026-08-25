@@ -6,6 +6,8 @@ import { ArrowRightIcon, CheckCircleIcon, SparkleIcon } from "../ui/Icons";
 
 export default function CTASection() {
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,9 +16,29 @@ export default function CTASection() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        const data = await res.json();
+        setErrorMessage(data.error || "Failed to submit. Please try again.");
+      }
+    } catch (err) {
+      setErrorMessage("Network error. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -231,14 +253,21 @@ export default function CTASection() {
                       />
                     </div>
 
+                    {errorMessage && (
+                      <div className="p-3.5 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 text-xs font-semibold">
+                        {errorMessage}
+                      </div>
+                    )}
+
                     <Button
                       type="submit"
                       variant="primary"
                       size="lg"
                       fullWidth
+                      disabled={isSubmitting}
                       rightIcon={<ArrowRightIcon size={18} />}
                     >
-                      Submit Consultation Request
+                      {isSubmitting ? "Sending Request..." : "Submit Consultation Request"}
                     </Button>
                   </form>
                 )}

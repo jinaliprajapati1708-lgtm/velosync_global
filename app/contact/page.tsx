@@ -20,6 +20,8 @@ import {
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -30,9 +32,29 @@ export default function ContactPage() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        const data = await res.json();
+        setErrorMessage(data.error || "Failed to submit. Please try again.");
+      }
+    } catch (err) {
+      setErrorMessage("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactMethods = [
@@ -280,6 +302,12 @@ export default function ContactPage() {
                     />
                   </div>
 
+                  {errorMessage && (
+                    <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/30 text-red-500 text-xs font-semibold">
+                      {errorMessage}
+                    </div>
+                  )}
+
                   <div className="flex items-center gap-3 p-4 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-xs text-slate-700 dark:text-slate-300">
                     <ShieldIcon size={20} className="text-cyan-400 flex-shrink-0" />
                     <span>Your information is 100% confidential under our NDA policy. We never share your data.</span>
@@ -290,9 +318,10 @@ export default function ContactPage() {
                     variant="primary"
                     size="lg"
                     fullWidth
+                    disabled={isSubmitting}
                     rightIcon={<ArrowRightIcon size={18} />}
                   >
-                    Submit Project Inquiry
+                    {isSubmitting ? "Sending Request..." : "Submit Project Inquiry"}
                   </Button>
                 </form>
               )}
