@@ -21,7 +21,7 @@ const faqs = [
       "Yes. All digital platforms engineered for Australian clients strictly follow Australian Privacy Principles (APPs), AHPRA guidelines for health software, and Australian data residency requirements on local AWS/Azure data centers.",
   },
   {
-    question: "Can Soniez Infotech integrate custom software with our existing tools?",
+    question: "Can Velosync Global integrate custom software with our existing tools?",
     answer:
       "Yes. We specialize in API middleware engineering. We seamlessly connect custom software and CRMs with Xero, MYOB, Salesforce, SAP, Stripe, Google Workspace, and legacy SQL databases without disrupting your daily operations.",
   },

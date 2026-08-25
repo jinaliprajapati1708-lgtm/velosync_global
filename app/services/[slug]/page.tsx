@@ -47,7 +47,7 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "custom-software": {
     title: "Custom Software Development",
     badge: "Bespoke Enterprise Software",
-    metaTitle: "Custom Software Development Services | Soniez Infotech",
+    metaTitle: "Custom Software Development Services | Velosync Global",
     metaDescription:
       "Engineered bespoke software applications, scalable microservices, SaaS platforms, and API integrations tailored for your exact business requirements.",
     heroHeadline: "Bespoke Software Platforms Built to Scale Your Business",
@@ -114,12 +114,12 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "crm-development": {
     title: "CRM Development",
     badge: "Intelligent Sales & Customer Management",
-    metaTitle: "Custom CRM Development Services | Soniez Infotech",
+    metaTitle: "Custom CRM Development Services | Velosync Global",
     metaDescription:
       "Build custom CRM platforms engineered to manage sales pipelines, customer interactions, lead scoring, and automated client onboarding.",
     heroHeadline: "Custom CRM Platforms Built for High-Converting Sales Teams",
     heroSubtitle:
-      "Eliminate clunky generic CRMs. Soniez Infotech engineers tailored sales pipelines, automated lead scoring, and omnichannel client management systems.",
+      "Eliminate clunky generic CRMs. Velosync Global engineers tailored sales pipelines, automated lead scoring, and omnichannel client management systems.",
     iconName: "crm",
     highlights: [
       "Tailored Pipeline Stages",
@@ -181,7 +181,7 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "ai-automation": {
     title: "AI Automation Solutions",
     badge: "Intelligent Artificial Intelligence & ML",
-    metaTitle: "AI Automation & Custom LLM Services | Soniez Infotech",
+    metaTitle: "AI Automation & Custom LLM Services | Velosync Global",
     metaDescription:
       "Deploy custom AI solutions, RAG knowledge bots, intelligent document extraction pipelines, and 24/7 conversational agents.",
     heroHeadline: "Harness AI to Automate Complex Workflows & Data Processing",
@@ -200,43 +200,43 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
       "Corporate knowledge hidden across thousands of PDFs without instant search.",
     ],
     solutions: [
-      "Custom OCR extraction pipelines converting unstructured PDFs into structured database records.",
-      "24/7 AI conversational support agents resolving common inquiries instantly.",
-      "Private vector-database RAG knowledge engine for instant company policy and SOP answers.",
+      "Custom RAG-powered knowledge assistants with instant semantic retrieval across all documents.",
+      "Automated OCR extraction pipelines sending structured data straight into your ERP/CRM.",
+      "24/7 autonomous support bots resolving 65%+ of routine queries with human-like accuracy.",
     ],
     capabilities: [
       {
-        title: "Enterprise RAG & Knowledge Bots",
+        title: "Enterprise Knowledge RAG Bots",
         description:
-          "Connect LLMs safely to your internal company files for instant, precise search and automated drafting.",
+          "Secure AI assistants trained exclusively on your internal SOPs, technical manuals, and client contracts.",
       },
       {
-        title: "Automated Document Extraction",
+        title: "Intelligent OCR & Data Extraction",
         description:
-          "Extract invoice line items, medical forms, claims, and contracts with 99%+ accuracy.",
+          "Automated pipelines parsing invoices, medical forms, and PDF reports into structured database tables.",
       },
       {
-        title: "24/7 Customer Service AI Agents",
+        title: "Autonomous 24/7 Support Agents",
         description:
-          "Conversational bots capable of booking appointments, updating order statuses, and qualifying leads.",
+          "Multi-channel AI chat and email agents resolving customer questions and qualifying leads continuously.",
       },
       {
-        title: "Predictive Analytics & AI Decisioning",
+        title: "Workflow Automation with LLMs",
         description:
-          "Machine learning models forecasting customer churn, inventory demand, and financial risk.",
+          "Automate report generation, email drafts, compliance checks, and summary generation across toolchains.",
       },
     ],
-    techStack: ["Python", "OpenAI GPT-4o", "LangChain", "Pinecone Vector DB", "FastAPI", "PyTorch"],
+    techStack: ["OpenAI / Anthropic APIs", "LangChain", "LlamaIndex", "Pinecone Vector DB", "Python / FastAPI", "Next.js"],
     metrics: [
       { value: "99.2%", label: "Data Extraction Accuracy" },
-      { value: "0 Seconds", label: "Support Queue Delay" },
-      { value: "-70%", label: "Cost Per Document" },
+      { value: "65%", label: "Support Automated" },
+      { value: "24/7", label: "Instant Availability" },
     ],
     faqs: [
       {
-        question: "Is our private company data used to train public AI models?",
+        question: "Is our proprietary data secure when using AI?",
         answer:
-          "No. We utilize private zero-data-retention enterprise API endpoints and self-hosted vector databases guaranteeing strict confidentiality.",
+          "Yes. We implement private vector storage, local or dedicated enterprise LLM endpoints, and zero-data retention policies so your corporate IP is never used for public training.",
       },
       {
         question: "How accurate is the document data extraction?",
@@ -248,7 +248,7 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "business-automation": {
     title: "Business Process Automation",
     badge: "Operational Workflow Orchestration",
-    metaTitle: "Business Process Automation Services | Soniez Infotech",
+    metaTitle: "Business Process Automation Services | Velosync Global",
     metaDescription:
       "Automate manual business processes, inter-departmental data sync, approval chains, and automated task dispatching.",
     heroHeadline: "Streamline Operations & Eliminate Repetitive Manual Labor",
@@ -315,7 +315,7 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "web-development": {
     title: "Web Development",
     badge: "Ultra-Fast Web Platforms",
-    metaTitle: "Web Development Services | Next.js & Headless Apps | Soniez Infotech",
+    metaTitle: "Web Development Services | Next.js & Headless Apps | Velosync Global",
     metaDescription:
       "Engineered business websites, web applications, client portals, and headless e-commerce built with modern Next.js and high-performance tech stack.",
     heroHeadline: "High-Performance Web Applications Built for Maximum Growth",
@@ -382,7 +382,7 @@ const serviceContentMap: Record<ServiceSlug, ServiceData> = {
   "digital-marketing": {
     title: "Digital Marketing & SEO",
     badge: "ROI-Focused Lead Generation",
-    metaTitle: "Digital Marketing & Technical SEO Services | Soniez Infotech",
+    metaTitle: "Digital Marketing & Technical SEO Services | Velosync Global",
     metaDescription:
       "Data-driven digital marketing campaigns, technical SEO optimization, lead generation funnels, and targeted audience acquisition.",
     heroHeadline: "Data-Driven Digital Marketing That Conquers Markets & Drives Revenue",
@@ -470,7 +470,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!data) {
     return {
-      title: "Service Not Found | Soniez Infotech",
+      title: "Service Not Found | Velosync Global",
     };
   }
 
@@ -481,10 +481,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `/services/${slug}`,
     },
     openGraph: {
-      title: `${data.title} | Soniez Infotech`,
+      title: `${data.title} | Velosync Global`,
       description: data.metaDescription,
-      url: `https://soniezinfotech.com/services/${slug}`,
-      siteName: "Soniez Infotech",
+      url: `https://velosyncglobal.com/services/${slug}`,
+      siteName: "Velosync Global",
       type: "website",
     },
   };
@@ -610,7 +610,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
               <div className="bg-white dark:bg-[#0F172A] p-8 rounded-3xl border border-cyan-500/30 shadow-lg">
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
                   <CheckCircleIcon size={24} className="text-cyan-400" />
-                  Soniez Infotech Approach
+                  Velosync Global Approach
                 </h3>
                 <ul className="space-y-4">
                   {data.solutions.map((s, idx) => (

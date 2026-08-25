@@ -11,7 +11,7 @@ const faqs = [
       "Yes. All our solutions for Australian clients are built in compliance with local regulations, including the Australian Privacy Principles (APPs), AHPRA guidelines for healthcare, financial audit requirements, and local data residency standards.",
   },
   {
-    question: "Can Soniez Infotech integrate custom software with our existing legacy ERP/CRM?",
+    question: "Can Velosync Global integrate custom software with our existing legacy ERP/CRM?",
     answer:
       "Absoutely. We specialize in API engineering and middleware integration. Whether you use SAP, Salesforce, Xero, MYOB, custom legacy databases, or proprietary hardware, we connect your existing systems without disrupting day-to-day operations.",
   },

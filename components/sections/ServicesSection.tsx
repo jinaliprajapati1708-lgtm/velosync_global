@@ -66,10 +66,10 @@ export default function ServicesSection() {
     >
       <div className="container">
         <SectionHeading
-          eyebrow="Core Competencies"
-          title="End-to-End Technology & Automation Services"
-          description="Soniez Infotech delivers specialized IT solutions engineered to accelerate digital transformation, optimize operations, and generate high-value qualified leads."
-          className="mb-16"
+          badge="Enterprise IT Capabilities"
+          title="End-to-End Technology & Digital Solutions"
+          description="Velosync Global delivers specialized IT solutions engineered to accelerate digital transformation, optimize operations, and generate high-value qualified leads."
+          center
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-14">

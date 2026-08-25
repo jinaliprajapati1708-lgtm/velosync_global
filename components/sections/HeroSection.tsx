@@ -95,11 +95,9 @@ export default function HeroSection() {
               className="text-base sm:text-lg md:text-xl leading-relaxed mb-8 max-w-2xl animate-fade-in-up animate-delay-200"
               style={{ color: "rgba(203, 213, 225, 0.9)" }}
             >
-              Soniez Infotech transforms business visions into scalable digital reality.
-              From tailored CRM solutions and AI workflows to enterprise web applications and ROI-driven marketing.
+              Velosync Global transforms business visions into scalable digital reality. We build bespoke software, intelligent CRM systems, and AI automation engines designed to scale high-growth enterprises.
             </p>
 
-            {/* Call to Actions */}
             <div className="flex flex-wrap items-center gap-4 mb-10 animate-fade-in-up animate-delay-300">
               <Button
                 as="link"
@@ -165,7 +163,7 @@ export default function HeroSection() {
                   <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                   <div className="w-3 h-3 rounded-full bg-green-500/80" />
                   <span className="ml-2 text-xs font-mono text-slate-400">
-                    soniez-engine.v1.0.ts
+                    velosync-engine.v1.0.ts
                   </span>
                 </div>
                 <span className="px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider rounded-md bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">

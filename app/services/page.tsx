@@ -12,9 +12,9 @@ import CTASection from "@/components/sections/CTASection";
 export const metadata: Metadata = {
   title: "Services | Custom Software, CRM, AI Automation & Digital Marketing",
   description:
-    "Explore Soniez Infotech's end-to-end technology services: Custom Software Development, CRM Engineering, AI Workflow Automation, Business Process Automation, Web Applications, and Digital Marketing for Australian SMEs and global enterprises.",
+    "Explore Velosync Global's end-to-end technology services: Custom Software Development, CRM Engineering, AI Workflow Automation, Business Process Automation, Web Applications, and Digital Marketing for Australian SMEs and global enterprises.",
   keywords: [
-    "Soniez Infotech Services",
+    "Velosync Global Services",
     "Custom Software Development Australia",
     "CRM Development Services",
     "AI Automation Agency",
@@ -26,24 +26,24 @@ export const metadata: Metadata = {
     canonical: "/services",
   },
   openGraph: {
-    title: "Technology & Software Engineering Services | Soniez Infotech",
+    title: "Technology & Software Engineering Services | Velosync Global",
     description:
       "Engineered custom software platforms, high-conversion CRMs, AI workflow automation, and digital marketing funnels tailored to enterprise growth.",
-    url: "https://soniezinfotech.com/services",
-    siteName: "Soniez Infotech",
+    url: "https://velosyncglobal.com/services",
+    siteName: "Velosync Global",
     type: "website",
     images: [
       {
         url: "/images/og-services.jpg",
         width: 1200,
         height: 630,
-        alt: "Soniez Infotech Core Technology Services",
+        alt: "Velosync Global Core Technology Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Technology & Software Engineering Services | Soniez Infotech",
+    title: "Technology & Software Engineering Services | Velosync Global",
     description:
       "Engineered custom software, intelligent CRM systems, AI workflow automation, and digital growth.",
     images: ["/images/og-services.jpg"],

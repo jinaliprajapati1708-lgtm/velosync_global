@@ -48,7 +48,7 @@ export default function PortfolioSection() {
           <SectionHeading
             eyebrow="Proven Impact"
             title="Featured Case Studies & Workflows"
-            description="Explore how Soniez Infotech delivers tailored software engineering, custom CRM systems, and AI business automation for enterprise growth."
+            description="Explore how Velosync Global delivers tailored software engineering, custom CRM systems, and AI business automation for enterprise growth."
             align="left"
             maxWidth="3xl"
             className="mb-0"

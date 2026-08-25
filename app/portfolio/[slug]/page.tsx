@@ -47,9 +47,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "CRM Development",
     industry: "Financial Services",
     country: "Australia",
-    metaTitle: "AI Enterprise CRM Case Study | Soniez Infotech",
+    metaTitle: "AI Enterprise CRM Case Study | Velosync Global",
     metaDescription:
-      "Explore how Soniez Infotech engineered an AI-powered CRM with automated lead scoring and WhatsApp sync, driving 70% faster deal closure.",
+      "Explore how Velosync Global engineered an AI-powered CRM with automated lead scoring and WhatsApp sync, driving 70% faster deal closure.",
     heroHeadline: "AI-Powered Enterprise CRM Accelerating B2B Deal Closure",
     heroSubtitle:
       "Engineered for an Australian enterprise consulting firm to eliminate sales friction, automate lead scoring, and unify omnichannel communication.",
@@ -106,9 +106,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "Digital Marketing",
     industry: "Professional Services",
     country: "Australia",
-    metaTitle: "Australian Lead Gen Portal Case Study | Soniez Infotech",
+    metaTitle: "Australian Lead Gen Portal Case Study | Velosync Global",
     metaDescription:
-      "Discover how Soniez Infotech designed a high-converting web portal and Google Ads campaign delivering 3.5x qualified commercial leads.",
+      "Discover how Velosync Global designed a high-converting web portal and Google Ads campaign delivering 3.5x qualified commercial leads.",
     heroHeadline: "Conquering Commercial Search & Tripling Qualified Inquiries",
     heroSubtitle:
       "A complete digital overhaul combining sub-second Next.js web design, technical SEO, and high-intent Google Search campaigns for Australian B2B buyers.",
@@ -165,9 +165,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "Custom Software",
     industry: "Enterprise Operations",
     country: "Global",
-    metaTitle: "Multi-Tenant Business ERP Case Study | Soniez Infotech",
+    metaTitle: "Multi-Tenant Business ERP Case Study | Velosync Global",
     metaDescription:
-      "See how Soniez Infotech engineered a multi-tenant cloud ERP with automated Xero and Stripe integration, achieving 99.9% billing accuracy.",
+      "See how Velosync Global engineered a multi-tenant cloud ERP with automated Xero and Stripe integration, achieving 99.9% billing accuracy.",
     heroHeadline: "Cloud ERP & Automated Billing Streamlining Global Operations",
     heroSubtitle:
       "Architected for a multi-national logistics and technology company to unify project scheduling, multi-currency invoicing, and client milestone approvals.",
@@ -224,9 +224,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "Custom Software",
     industry: "Healthcare",
     country: "Australia",
-    metaTitle: "Healthcare Telehealth Portal Case Study | Soniez Infotech",
+    metaTitle: "Healthcare Telehealth Portal Case Study | Velosync Global",
     metaDescription:
-      "Discover how Soniez Infotech delivered an AHPRA/HIPAA compliant telehealth portal with automated intake and EHR sync, dropping no-shows by 60%.",
+      "Discover how Velosync Global delivered an AHPRA/HIPAA compliant telehealth portal with automated intake and EHR sync, dropping no-shows by 60%.",
     heroHeadline: "AHPRA-Compliant Digital Health & Patient Intake Portal",
     heroSubtitle:
       "Engineered for an Australian healthcare network to streamline patient onboarding, secure video consultation, and EHR record management.",
@@ -283,9 +283,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "AI & Automation",
     industry: "Logistics",
     country: "Australia",
-    metaTitle: "Logistics Fleet Tracking Case Study | Soniez Infotech",
+    metaTitle: "Logistics Fleet Tracking Case Study | Velosync Global",
     metaDescription:
-      "Learn how Soniez Infotech built a real-time GPS fleet tracking and automated dispatch portal for Australian logistics operators, saving 25+ hours/week.",
+      "Learn how Velosync Global built a real-time GPS fleet tracking and automated dispatch portal for Australian logistics operators, saving 25+ hours/week.",
     heroHeadline: "Real-Time Fleet Telematics & Automated Dispatch Engine",
     heroSubtitle:
       "Developed for an Australian transport & logistics company to optimize driver routes, automate customer tracking notifications, and sync inventory.",
@@ -342,9 +342,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "Custom Software",
     industry: "Fintech",
     country: "Global",
-    metaTitle: "Fintech KYC Onboarding Case Study | Soniez Infotech",
+    metaTitle: "Fintech KYC Onboarding Case Study | Velosync Global",
     metaDescription:
-      "Read how Soniez Infotech engineered an encrypted KYC onboarding and automated loan evaluation engine, achieving instant customer verification.",
+      "Read how Velosync Global engineered an encrypted KYC onboarding and automated loan evaluation engine, achieving instant customer verification.",
     heroHeadline: "Automated KYC Onboarding & Instant Credit Evaluation",
     heroSubtitle:
       "Built for an emerging digital lending platform to eliminate paper verification, prevent fraud, and accelerate borrower onboarding.",
@@ -401,9 +401,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "Web & E-Commerce",
     industry: "Retail",
     country: "Australia",
-    metaTitle: "Headless E-Commerce Case Study | Soniez Infotech",
+    metaTitle: "Headless E-Commerce Case Study | Velosync Global",
     metaDescription:
-      "Explore how Soniez Infotech built a Next.js headless storefront delivering sub-second speed and a 38% increase in repeat customer purchases.",
+      "Explore how Velosync Global built a Next.js headless storefront delivering sub-second speed and a 38% increase in repeat customer purchases.",
     heroHeadline: "Sub-Second Headless Commerce Driving Repeat Customer Sales",
     heroSubtitle:
       "Re-platforming an Australian retail brand from legacy monolithic architecture to a modern Next.js headless e-commerce ecosystem.",
@@ -460,9 +460,9 @@ const caseStudyMap: Record<CaseStudySlug, CaseStudyData> = {
     category: "AI & Automation",
     industry: "Manufacturing",
     country: "Global",
-    metaTitle: "Industrial IoT Dashboard Case Study | Soniez Infotech",
+    metaTitle: "Industrial IoT Dashboard Case Study | Velosync Global",
     metaDescription:
-      "Discover how Soniez Infotech built a real-time IoT manufacturing dashboard, reducing unplanned machine downtime by 40%.",
+      "Discover how Velosync Global built a real-time IoT manufacturing dashboard, reducing unplanned machine downtime by 40%.",
     heroHeadline: "Industry 4.0 IoT Telematics & Predictive Maintenance",
     heroSubtitle:
       "Developed for an industrial manufacturing facility to connect machine IoT sensors, track Overall Equipment Effectiveness (OEE), and predict maintenance.",
@@ -540,7 +540,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!data) {
     return {
-      title: "Case Study Not Found | Soniez Infotech",
+      title: "Case Study Not Found | Velosync Global",
     };
   }
 
@@ -551,10 +551,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `/portfolio/${slug}`,
     },
     openGraph: {
-      title: `${data.title} | Soniez Infotech Case Study`,
+      title: `${data.title} | Velosync Global Case Study`,
       description: data.metaDescription,
-      url: `https://soniezinfotech.com/portfolio/${slug}`,
-      siteName: "Soniez Infotech",
+      url: `https://velosyncglobal.com/portfolio/${slug}`,
+      siteName: "Velosync Global",
       type: "website",
     },
   };
@@ -679,7 +679,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
               <div className="bg-white dark:bg-[#0F172A] p-8 rounded-3xl border border-cyan-500/30 shadow-lg">
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
                   <CheckCircleIcon size={24} className="text-cyan-400" />
-                  Soniez Infotech Engineered Solution
+                  Velosync Global Engineered Solution
                 </h3>
                 <ul className="space-y-4">
                   {data.solutions.map((s, idx) => (

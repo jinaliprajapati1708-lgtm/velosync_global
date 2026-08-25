@@ -66,7 +66,7 @@ export default function TeamLeadershipSection() {
               </div>
 
               <div className="mt-6 pt-4 border-t border-slate-200/60 dark:border-slate-800/80 text-xs font-medium text-slate-400">
-                Dedicated Soniez Infotech Engineering Division
+                Dedicated Velosync Global Engineering Division
               </div>
             </div>
           ))}

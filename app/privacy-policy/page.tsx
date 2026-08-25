@@ -3,9 +3,9 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Soniez Infotech",
+  title: "Privacy Policy | Velosync Global",
   description:
-    "Soniez Infotech Privacy Policy outlining compliance with Australian Privacy Principles (APPs), data protection, confidentiality, and security standards.",
+    "Velosync Global Privacy Policy outlining compliance with Australian Privacy Principles (APPs), data protection, confidentiality, and security standards.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
                 1. Information We Collect
               </h2>
               <p>
-                Soniez Infotech collects personal and corporate information provided directly by clients and website visitors when submitting consultation forms, booking technical discovery sessions, or engaging our software engineering services. This includes names, corporate email addresses, phone numbers, company names, and project specifications.
+                Velosync Global collects personal and corporate information provided directly by clients and website visitors when submitting consultation forms, booking technical discovery sessions, or engaging our software engineering services. This includes names, corporate email addresses, phone numbers, company names, and project specifications.
               </p>
             </section>
 
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
                 4. Non-Disclosure & Intellectual Property
               </h2>
               <p>
-                All proprietary client workflows, source code, data feeds, and project specifications shared with Soniez Infotech are protected under strict Non-Disclosure Agreements (NDAs). Upon final project payment, 100% of source code rights and intellectual property belong exclusively to the client.
+                All proprietary client workflows, source code, data feeds, and project specifications shared with Velosync Global are protected under strict Non-Disclosure Agreements (NDAs). Upon final project payment, 100% of source code rights and intellectual property belong exclusively to the client.
               </p>
             </section>
 
@@ -81,8 +81,8 @@ export default function PrivacyPolicyPage() {
               </h2>
               <p>
                 If you have questions regarding this Privacy Policy or wish to request access to or correction of your personal information, please email our Privacy Officer at{" "}
-                <a href="mailto:privacy@soniezinfotech.com" className="text-cyan-500 font-semibold hover:underline">
-                  privacy@soniezinfotech.com
+                <a href="mailto:privacy@velosyncglobal.com" className="text-cyan-500 font-semibold hover:underline">
+                  privacy@velosyncglobal.com
                 </a>.
               </p>
             </section>

@@ -68,9 +68,9 @@ export default function ContactPage() {
     {
       icon: <MailIcon size={24} />,
       title: "Official Email",
-      detail: "contact@soniezinfotech.com",
+      detail: "contact@velosyncglobal.com",
       subtext: "Guaranteed reply within 24 hours",
-      href: "mailto:contact@soniezinfotech.com",
+      href: "mailto:contact@velosyncglobal.com",
     },
     {
       icon: <MapPinIcon size={24} />,
@@ -93,7 +93,7 @@ export default function ContactPage() {
         "Yes. We strictly protect your proprietary ideas and business data under a 100% confidential NDA upon initial contact.",
     },
     {
-      question: "Can Soniez Infotech accommodate custom software timelines?",
+      question: "Can Velosync Global accommodate custom software timelines?",
       answer:
         "Absoutely. We offer both fixed milestone deliveries and dedicated agile engineering squads tailored to your launch dates.",
     },

@@ -104,7 +104,7 @@ export default function CTASection() {
                 className="text-base sm:text-lg leading-relaxed mb-8 max-w-xl"
                 style={{ color: "rgba(203, 213, 225, 0.9)" }}
               >
-                Partner with Soniez Infotech for custom software development, CRM engineering, AI workflow automation, or targeted lead generation campaigns.
+                Partner with Velosync Global for custom software development, CRM engineering, AI workflow automation, or targeted lead generation campaigns.
               </p>
 
               <div className="space-y-4">

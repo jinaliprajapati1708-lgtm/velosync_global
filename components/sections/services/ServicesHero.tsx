@@ -37,7 +37,7 @@ export default function ServicesHero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto mb-10 animate-fade-in-up animate-delay-100">
-            Soniez Infotech delivers end-to-end technology solutions — from bespoke software engineering and intelligent CRM systems to AI workflow automation and high-converting digital marketing strategies tailored for Australian SMEs and global enterprises.
+            Velosync Global delivers end-to-end technology solutions — from bespoke software engineering and intelligent CRM systems to AI workflow automation and high-converting digital marketing strategies tailored for Australian SMEs and global enterprises.
           </p>
 
           {/* Action CTAs */}

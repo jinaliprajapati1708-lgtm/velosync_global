@@ -37,7 +37,7 @@ export default function PortfolioHero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto mb-10 animate-fade-in-up animate-delay-100">
-            Explore how Soniez Infotech engineers high-impact custom software, intelligent CRM systems, AI workflow automation, and digital lead generation engines for clients across Australia and worldwide.
+            Explore how Velosync Global engineers high-impact custom software, intelligent CRM systems, AI workflow automation, and digital lead generation engines for clients across Australia and worldwide.
           </p>
 
           {/* Action CTAs */}

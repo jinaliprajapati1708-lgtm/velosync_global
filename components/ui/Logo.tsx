@@ -1,13 +1,13 @@
 import Link from "next/link";
 /* 
   =============================================================================
-  TEMPORARY LOGO PLACEHOLDER FOR SONIEZ INFOTECH
+  TEMPORARY LOGO PLACEHOLDER FOR VELOSYNC GLOBAL
   =============================================================================
   HOW TO REPLACE WITH FINAL LOGO:
   1. Save your final logo SVG or PNG in `public/images/logo.svg` or `public/images/logo.png`.
   2. Import Image from "next/image".
   3. Replace the SVG icon mark below with:
-     <Image src="/images/logo.svg" alt="Soniez Infotech" width={160} height={40} priority />
+     <Image src="/images/logo.svg" alt="Velosync Global" width={160} height={40} priority />
   =============================================================================
 */
 
@@ -25,7 +25,7 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
     <Link
       href="/"
       className={`inline-flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg ${className}`}
-      aria-label="Soniez Infotech - Home"
+      aria-label="Velosync Global - Home"
     >
       {/* Temporary Logo Icon Emblem */}
       <span className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-[#0B1B3D] via-[#1E3A8A] to-[#06B6D4] p-0.5 shadow-md transition-transform duration-300 group-hover:scale-105">
@@ -60,14 +60,14 @@ export default function Logo({ variant = "dark", className = "" }: LogoProps) {
           className="text-lg sm:text-xl font-extrabold tracking-tight leading-none"
           style={{ color: textColor }}
         >
-          SONIEZ
+          VELOSYNC
           <span style={{ color: "var(--accent-color)" }}>.</span>
         </span>
         <span
           className="text-[10px] font-semibold uppercase tracking-[0.2em] mt-0.5"
           style={{ color: subTextColor }}
         >
-          Infotech
+          Global
         </span>
       </div>
     </Link>

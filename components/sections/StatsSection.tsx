@@ -63,8 +63,8 @@ export default function StatsSection() {
       </div>
 
       <div className="relative container">
-        <h2 id="stats-heading" className="visually-hidden">
-          Soniez Infotech Company Statistics
+        <h2 id="stats-heading" className="sr-only">
+          Velosync Global Company Statistics
         </h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

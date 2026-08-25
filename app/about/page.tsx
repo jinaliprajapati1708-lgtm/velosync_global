@@ -10,11 +10,11 @@ import TeamLeadershipSection from "@/components/sections/about/TeamLeadershipSec
 import CTASection from "@/components/sections/CTASection";
 
 export const metadata: Metadata = {
-  title: "About Us | Soniez Infotech - Digital Transformation & IT Solutions",
+  title: "About Us | Velosync Global - Digital Transformation & IT Solutions",
   description:
-    "Learn about Soniez Infotech, a premier IT solutions company delivering custom software development, CRM engineering, AI automation, and digital growth strategies for Australian SMEs and global clients.",
+    "Learn about Velosync Global, a premier IT solutions company delivering custom software development, CRM engineering, AI automation, and digital growth strategies for Australian SMEs and global clients.",
   keywords: [
-    "About Soniez Infotech",
+    "About Velosync Global",
     "IT Solutions Company Australia",
     "Custom Software Engineering",
     "CRM Development Team",
@@ -25,24 +25,24 @@ export const metadata: Metadata = {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Us | Soniez Infotech IT Solutions",
+    title: "About Us | Velosync Global IT Solutions",
     description:
       "Empowering businesses with custom software, intelligent CRM systems, and AI automation tailored to modern enterprise challenges.",
-    url: "https://soniezinfotech.com/about",
-    siteName: "Soniez Infotech",
+    url: "https://velosyncglobal.com/about",
+    siteName: "Velosync Global",
     type: "website",
     images: [
       {
         url: "/images/og-about.jpg",
         width: 1200,
         height: 630,
-        alt: "Soniez Infotech Team & Mission",
+        alt: "Velosync Global Team & Mission",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us | Soniez Infotech IT Solutions",
+    title: "About Us | Velosync Global IT Solutions",
     description:
       "Empowering businesses with custom software, intelligent CRM systems, and AI automation.",
     images: ["/images/og-about.jpg"],

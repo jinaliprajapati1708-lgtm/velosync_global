@@ -60,24 +60,38 @@ export default function WhyChooseUsSection() {
           <div className="lg:col-span-5 lg:sticky lg:top-32">
             <SectionHeading
               eyebrow="Why Choose Us"
-              title="The Soniez Infotech Engineering Advantage"
-              description="We combine deep technical capabilities, strategic business insights, and modern UX standards to deliver high-performing software that transforms business operations."
-              align="left"
-              maxWidth="none"
-              className="mb-8"
+              title="The Velosync Global Engineering Advantage"
+              description="We combine deep technical expertise, robust cloud architecture, and modern AI automation to build high-ROI digital solutions for businesses."
+              align="center"
             />
 
-            <div className="p-8 rounded-3xl border bg-gradient-to-br from-[#0B1B3D] via-[#1E3A8A] to-[#0F172A] text-white shadow-xl relative overflow-hidden">
-              <div className="relative z-10">
-                <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-wider rounded-md bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 mb-4">
-                  CLIENT GUARANTEE
-                </span>
-                <h4 className="text-xl font-bold mb-2">
-                  High-Impact Digital Partner
-                </h4>
-                <p className="text-sm text-slate-300 leading-relaxed mb-6">
-                  Every project at Soniez Infotech is backed by strict quality assurance, transparent communication, and dedicated ongoing support.
-                </p>
+            <div
+              className="p-8 rounded-3xl border mb-16 relative overflow-hidden"
+              style={{
+                borderColor: "var(--border-color)",
+                background: "var(--surface-color)",
+              }}
+            >
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div className="flex items-center gap-4">
+                  <span className="p-3 rounded-2xl bg-cyan-500/10 text-cyan-500 border border-cyan-500/20">
+                    <ShieldIcon size={24} />
+                  </span>
+                  <div>
+                    <h3
+                      className="text-lg font-bold"
+                      style={{ color: "var(--text-primary)" }}
+                    >
+                      Enterprise Reliability & Transparent Delivery
+                    </h3>
+                    <p
+                      className="text-sm mt-0.5"
+                      style={{ color: "var(--text-secondary)" }}
+                    >
+                      Every project at Velosync Global is backed by strict quality assurance, transparent communication, and dedicated ongoing support.
+                    </p>
+                  </div>
+                </div>
                 <div className="flex items-center gap-6 pt-4 border-t border-slate-700/60 text-xs">
                   <div>
                     <span className="block text-2xl font-extrabold text-cyan-400">

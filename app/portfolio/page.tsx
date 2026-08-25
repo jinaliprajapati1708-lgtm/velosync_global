@@ -9,11 +9,11 @@ import PortfolioFAQSection from "@/components/sections/portfolio/PortfolioFAQSec
 import CTASection from "@/components/sections/CTASection";
 
 export const metadata: Metadata = {
-  title: "Portfolio & Case Studies | Soniez Infotech IT Solutions",
+  title: "Portfolio & Case Studies | Velosync Global IT Solutions",
   description:
-    "Explore Soniez Infotech's portfolio of custom software engineering, intelligent CRM platforms, AI workflow automations, and digital lead generation campaigns for clients in Australia and globally.",
+    "Explore Velosync Global's portfolio of custom software engineering, intelligent CRM platforms, AI workflow automations, and digital lead generation campaigns for clients in Australia and globally.",
   keywords: [
-    "Soniez Infotech Portfolio",
+    "Velosync Global Portfolio",
     "Software Engineering Case Studies",
     "Custom CRM Case Study Australia",
     "AI Automation Success Stories",
@@ -24,24 +24,24 @@ export const metadata: Metadata = {
     canonical: "/portfolio",
   },
   openGraph: {
-    title: "Portfolio & Case Studies | Soniez Infotech",
+    title: "Portfolio & Case Studies | Velosync Global",
     description:
       "Verified case studies demonstrating custom software platforms, high-conversion CRMs, AI automation, and ROI growth delivered for clients.",
-    url: "https://soniezinfotech.com/portfolio",
-    siteName: "Soniez Infotech",
+    url: "https://velosyncglobal.com/portfolio",
+    siteName: "Velosync Global",
     type: "website",
     images: [
       {
         url: "/images/og-portfolio.jpg",
         width: 1200,
         height: 630,
-        alt: "Soniez Infotech Case Studies & Portfolio",
+        alt: "Velosync Global Case Studies & Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio & Case Studies | Soniez Infotech",
+    title: "Portfolio & Case Studies | Velosync Global",
     description:
       "Verified case studies demonstrating custom software, intelligent CRMs, and AI automation.",
     images: ["/images/og-portfolio.jpg"],

@@ -45,8 +45,8 @@ const contactInfo = [
   {
     icon: <MailIcon size={18} />,
     label: "Official Email",
-    value: "contact@soniezinfotech.com",
-    href: "mailto:contact@soniezinfotech.com",
+    value: "contact@velosyncglobal.com",
+    href: "mailto:contact@velosyncglobal.com",
   },
   {
     icon: <MapPinIcon size={18} />,
@@ -102,7 +102,7 @@ export default function Footer() {
                 className="text-sm md:text-base leading-relaxed"
                 style={{ color: "rgba(203, 213, 225, 0.9)" }}
               >
-                Connect with Soniez Infotech today to discuss custom software development, AI automation, or lead generation strategies tailored for your business.
+                Connect with Velosync Global today to discuss custom software development, AI automation, or lead generation strategies tailored for your business.
               </p>
             </div>
             <div className="flex lg:justify-end">
@@ -133,7 +133,7 @@ export default function Footer() {
               className="text-sm leading-relaxed mb-6 max-w-md"
               style={{ color: "rgba(203, 213, 225, 0.85)" }}
             >
-              Soniez Infotech delivers enterprise-grade software development, customized CRM systems, AI & business automation, modern web applications, and ROI-driven digital marketing.
+              Velosync Global delivers enterprise-grade software development, customized CRM systems, AI & business automation, modern web applications, and ROI-driven digital marketing.
             </p>
             <div className="flex flex-col gap-3.5">
               {contactInfo.map((item) => (
@@ -246,29 +246,29 @@ export default function Footer() {
             className="text-xs text-center md:text-left"
             style={{ color: "rgba(148, 163, 184, 0.85)" }}
           >
-            © {currentYear} Soniez Infotech. All rights reserved. Built for global technology leadership.
+            © {currentYear} Velosync Global. All rights reserved. Built for global technology leadership.
           </p>
 
           <div className="flex items-center gap-3">
             {[
               {
                 icon: <LinkedinIcon size={18} />,
-                href: "https://linkedin.com/company/soniezinfotech",
+                href: "https://linkedin.com/company/velosyncglobal",
                 label: "LinkedIn Company Account",
               },
               {
                 icon: <InstagramIcon size={18} />,
-                href: "https://instagram.com/soniezinfotech",
+                href: "https://instagram.com/velosyncglobal",
                 label: "Instagram Company Account",
               },
               {
                 icon: <TwitterIcon size={18} />,
-                href: "https://twitter.com/soniezinfotech",
+                href: "https://twitter.com/velosyncglobal",
                 label: "Twitter Account",
               },
               {
                 icon: <GithubIcon size={18} />,
-                href: "https://github.com/soniezinfotech",
+                href: "https://github.com/velosyncglobal",
                 label: "GitHub Repositories",
               },
             ].map((social) => (

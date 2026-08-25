@@ -55,7 +55,7 @@ export default function CoreValuesSection() {
         <SectionHeading
           badge="Guiding Principles"
           title="The Core Values That Define Our Work"
-          subtitle="How Soniez Infotech delivers excellence, trust, and long-term value to every business partnership."
+          subtitle="How Velosync Global delivers excellence, trust, and long-term value to every business partnership."
           center
         />
 

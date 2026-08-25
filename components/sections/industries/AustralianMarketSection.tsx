@@ -63,7 +63,7 @@ export default function AustralianMarketSection() {
             </h2>
 
             <p className="text-slate-300 text-base leading-relaxed mb-8">
-              Australian businesses face unique operational, staffing, and compliance challenges. Soniez Infotech builds purpose-driven software and automation solutions that eliminate repetitive work, increase lead generation, and drive sustainable profit growth.
+              Australian businesses face unique operational, staffing, and compliance challenges. Velosync Global builds purpose-driven software and automation solutions that eliminate repetitive work, increase lead generation, and drive sustainable profit growth.
             </p>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm mb-8">

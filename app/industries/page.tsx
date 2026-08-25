@@ -12,9 +12,9 @@ import CTASection from "@/components/sections/CTASection";
 export const metadata: Metadata = {
   title: "Industries We Serve | Tailored Technology & Software Solutions",
   description:
-    "Explore how Soniez Infotech delivers custom software, CRM development, AI automation, and digital marketing tailored for Healthcare, Logistics, Fintech, Retail, Real Estate, and Australian SMEs.",
+    "Explore how Velosync Global delivers custom software, CRM development, AI automation, and digital marketing tailored for Healthcare, Logistics, Fintech, Retail, Real Estate, and Australian SMEs.",
   keywords: [
-    "Soniez Infotech Industries",
+    "Velosync Global Industries",
     "Healthcare Software Development",
     "Logistics Automation",
     "Fintech CRM Development",
@@ -26,24 +26,24 @@ export const metadata: Metadata = {
     canonical: "/industries",
   },
   openGraph: {
-    title: "Industries We Serve | Soniez Infotech IT Solutions",
+    title: "Industries We Serve | Velosync Global IT Solutions",
     description:
       "Engineered custom software, CRM platforms, and AI automation tailored to your industry's specific challenges and regulatory requirements.",
-    url: "https://soniezinfotech.com/industries",
-    siteName: "Soniez Infotech",
+    url: "https://velosyncglobal.com/industries",
+    siteName: "Velosync Global",
     type: "website",
     images: [
       {
         url: "/images/og-industries.jpg",
         width: 1200,
         height: 630,
-        alt: "Soniez Infotech Industry Solutions",
+        alt: "Velosync Global Industry Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Industries We Serve | Soniez Infotech IT Solutions",
+    title: "Industries We Serve | Velosync Global IT Solutions",
     description:
       "Engineered custom software, CRM platforms, and AI automation tailored to your industry's specific challenges.",
     images: ["/images/og-industries.jpg"],

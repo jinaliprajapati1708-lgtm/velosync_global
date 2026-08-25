@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     if (rawSender.includes("@gmail.com") || rawSender.includes("@yahoo.com") || rawSender.includes("@outlook.com") || rawSender.includes("@hotmail.com")) {
       rawSender = "onboarding@resend.dev";
     }
-    const sender = `Soniez Infotech <${rawSender}>`;
+    const sender = `Velosync Global <${rawSender}>`;
 
     // Build Admin Notification HTML
     const adminHtml = `
@@ -48,7 +48,7 @@ export async function POST(req: Request) {
             <div class="header">
               <span class="badge">New Lead Received</span>
               <h1>${name} requested a consultation</h1>
-              <p style="color: #94A3B8; font-size: 13px; margin: 0;">Received from Soniez Infotech Contact Form</p>
+              <p style="color: #94A3B8; font-size: 13px; margin: 0;">Received from Velosync Global Contact Form</p>
             </div>
 
             <div class="field">
@@ -86,7 +86,7 @@ export async function POST(req: Request) {
               <div class="message-box">${message ? message.replace(/\n/g, '<br/>') : "No additional message provided."}</div>
             </div>
 
-            <a href="mailto:${email}?subject=RE: Soniez Infotech Consultation - ${encodeURIComponent(service || 'IT Solutions')}" class="btn">Reply Directly to ${name}</a>
+            <a href="mailto:${email}?subject=RE: Velosync Global Consultation - ${encodeURIComponent(service || 'IT Solutions')}" class="btn">Reply Directly to ${name}</a>
           </div>
         </body>
       </html>
@@ -111,7 +111,7 @@ export async function POST(req: Request) {
         </head>
         <body>
           <div class="card">
-            <div class="logo">Soniez <span class="accent">Infotech</span></div>
+            <div class="logo">Velosync <span class="accent">Global</span></div>
             <h1>Thank you for reaching out, ${name}!</h1>
             <p>We have successfully received your inquiry regarding <strong>${service || "our services"}</strong>.</p>
             <p>Our senior solution architect is reviewing your requirements and will contact you within <strong>24 hours</strong> to discuss the next steps for your project.</p>
@@ -124,10 +124,10 @@ export async function POST(req: Request) {
               ${message ? `<p style="margin: 4px 0; font-size: 13px;"><strong>Message:</strong> ${message}</p>` : ''}
             </div>
 
-            <p>If you have any urgent questions, feel free to reply directly to this email or reach us at <a href="mailto:contact@soniezinfotech.com" style="color: #06B6D4;">contact@soniezinfotech.com</a>.</p>
+            <p>If you have any urgent questions, feel free to reply directly to this email or reach us at <a href="mailto:contact@velosyncglobal.com" style="color: #06B6D4;">contact@velosyncglobal.com</a>.</p>
 
             <div class="footer">
-              © ${new Date().getFullYear()} Soniez Infotech. All rights reserved.<br/>
+              © ${new Date().getFullYear()} Velosync Global. All rights reserved.<br/>
               Custom Software • CRM Engineering • AI Automation • Digital Marketing
             </div>
           </div>
@@ -159,7 +159,7 @@ export async function POST(req: Request) {
       const userResult = await resend.emails.send({
         from: sender,
         to: email,
-        subject: `Thank you for contacting Soniez Infotech!`,
+        subject: `Thank you for contacting Velosync Global!`,
         html: userHtml,
       });
 

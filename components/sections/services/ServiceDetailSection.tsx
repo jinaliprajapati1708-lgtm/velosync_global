@@ -270,16 +270,16 @@ export default function ServiceDetailSection() {
               </ul>
             </div>
 
-            {/* Soniez Solution Column */}
-            <div className="bg-white dark:bg-[#060e24] p-6 sm:p-8 rounded-2xl border border-cyan-500/30 shadow-sm">
+            {/* Velosync Solution Column */}
+            <div className="rounded-3xl border border-cyan-500/30 bg-white dark:bg-[#0F172A] p-8 lg:p-10 shadow-xl">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-500 flex items-center justify-center font-bold">
+                <span className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
                   <CheckCircleIcon size={22} />
-                </div>
+                </span>
                 <div>
-                  <h4 className="text-lg font-bold text-slate-900 dark:text-white">
-                    Soniez Infotech Engineered Solution
-                  </h4>
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-white">
+                    Velosync Global Engineered Solution
+                  </h3>
                   <p className="text-xs text-slate-500 dark:text-slate-400">
                     Custom architecture & automated workflows
                   </p>

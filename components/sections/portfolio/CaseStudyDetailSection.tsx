@@ -183,8 +183,8 @@ export default function CaseStudyDetailSection() {
                   <CheckCircleIcon size={22} />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-slate-900 dark:text-white">
-                    Soniez Infotech Solution
+                  <h4 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+                    Velosync Global Solution
                   </h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400">
                     Engineered architecture & automation

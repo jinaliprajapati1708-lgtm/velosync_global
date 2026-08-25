@@ -15,15 +15,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://soniezinfotech.com"),
+  metadataBase: new URL("https://velosyncglobal.com"),
   title: {
-    default: "Soniez Infotech | Digital Transformation & IT Solutions Company",
-    template: "%s | Soniez Infotech",
+    default: "Velosync Global | Digital Transformation & IT Solutions Company",
+    template: "%s | Velosync Global",
   },
   description:
-    "Soniez Infotech delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
+    "Velosync Global delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
   keywords: [
-    "Soniez Infotech",
+    "Velosync Global",
     "digital transformation",
     "software development",
     "AI solutions",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     "technology company",
     "IT solutions",
   ],
-  authors: [{ name: "Soniez Infotech" }],
-  creator: "Soniez Infotech",
-  publisher: "Soniez Infotech",
+  authors: [{ name: "Velosync Global" }],
+  creator: "Velosync Global",
+  publisher: "Velosync Global",
   formatDetection: {
     email: false,
     address: false,
@@ -45,27 +45,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://soniezinfotech.com",
-    siteName: "Soniez Infotech",
-    title: "Soniez Infotech | Digital Transformation & IT Solutions Company",
+    url: "https://velosyncglobal.com",
+    siteName: "Velosync Global",
+    title: "Velosync Global | Digital Transformation & IT Solutions Company",
     description:
-      "Soniez Infotech delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
+      "Velosync Global delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Soniez Infotech - Digital Transformation & IT Solutions",
+        alt: "Velosync Global - Digital Transformation & IT Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Soniez Infotech | Digital Transformation & IT Solutions Company",
+    title: "Velosync Global | Digital Transformation & IT Solutions Company",
     description:
-      "Soniez Infotech delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
+      "Velosync Global delivers cutting-edge digital transformation, software development, AI solutions, cloud services, and IT consulting to help businesses scale and innovate.",
     images: ["/images/og-image.jpg"],
-    creator: "@soniezinfotech",
+    creator: "@velosyncglobal",
   },
   robots: {
     index: true,

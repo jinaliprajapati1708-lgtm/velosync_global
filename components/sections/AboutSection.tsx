@@ -62,7 +62,7 @@ export default function AboutSection() {
                 </span>
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    Soniez Infotech Standard
+                    Velosync Global Standard
                   </h3>
                   <p className="text-xs text-slate-300">
                     Built for Enterprise Performance & Lead Growth
@@ -142,9 +142,9 @@ export default function AboutSection() {
           {/* Right Column: Detailed Text */}
           <div className="lg:col-span-6">
             <SectionHeading
-              eyebrow="About Soniez Infotech"
+              eyebrow="About Velosync Global"
               title="Architecting Digital Solutions That Drive Australian Business Success"
-              description="Soniez Infotech is a forward-looking technology company specializing in custom software development, custom CRM systems, AI automation, and ROI-centric digital marketing. We empower businesses to operate smarter and scale faster."
+              description="Velosync Global is a forward-looking technology company specializing in custom software development, custom CRM systems, AI automation, and ROI-centric digital marketing. We empower businesses to operate smarter and scale faster."
               align="left"
               className="mb-8"
               maxWidth="none"

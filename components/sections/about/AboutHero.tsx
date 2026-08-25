@@ -23,20 +23,17 @@ export default function AboutHero() {
           {/* Eyebrow */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-semibold tracking-wide mb-6">
             <SparkleIcon size={16} />
-            <span>About Soniez Infotech</span>
+            <span>About Velosync Global</span>
           </div>
 
-          {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.15] mb-6">
-            Engineering the Future of{" "}
-            <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-300 bg-clip-text text-transparent">
-              Custom Software & Enterprise AI
-            </span>
+          {/* Main Title */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.15] mb-6 animate-fade-in-up">
+            Architecting Purpose-Built Software, CRMs & AI Workflows for Modern Growth
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto mb-10">
-            Soniez Infotech is a forward-thinking technology company dedicated to empowering Australian businesses and global enterprises with bespoke software platforms, intelligent CRM systems, and AI-driven process automation.
+          <p className="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-3xl mx-auto mb-10 animate-fade-in-up animate-delay-100">
+            Velosync Global is a forward-thinking technology company dedicated to empowering Australian businesses and global enterprises with bespoke software platforms, intelligent CRM systems, and AI-driven process automation.
           </p>
 
           {/* CTAs */}

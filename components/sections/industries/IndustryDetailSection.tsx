@@ -250,7 +250,7 @@ export default function IndustryDetailSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-slate-900 dark:text-white">
-                    Soniez Infotech Engineered Solution
+                    Velosync Global Engineered Solution
                   </h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400">
                     Tailored software, CRM & AI automation
